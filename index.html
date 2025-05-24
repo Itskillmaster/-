@@ -1,0 +1,174 @@
+
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>الفو بات | ربات مدیریت گروه روبیکا</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;700;900&display=swap" rel="stylesheet">
+  <meta name="google-signin-client_id" content="YOUR_GOOGLE_CLIENT_ID.apps.googleusercontent.com">
+  <script src="https://accounts.google.com/gsi/client" async defer></script>
+  <style>
+    body {
+      font-family: 'Vazirmatn', sans-serif;
+      background: linear-gradient(to bottom right, #0f172a, #1e293b);
+      color: white;
+      overflow-x: hidden;
+    }
+    .neon {
+      text-shadow: 0 0 8px #00f7ff, 0 0 12px #00f7ff;
+    }
+    .card {
+      background: rgba(255, 255, 255, 0.05);
+      backdrop-filter: blur(10px);
+      border-radius: 1rem;
+      padding: 1.5rem;
+    }
+  </style>
+</head>
+<body class="text-white">
+  <!-- Header -->
+  <header class="p-4 shadow-md bg-gray-900 flex justify-between items-center">
+    <h1 class="text-2xl font-bold text-cyan-400 neon">الفو بات</h1>
+    <nav class="flex space-x-4 space-x-reverse text-sm">
+      <a href="#home" class="hover:text-cyan-300">خانه</a>
+      <a href="#commands" class="hover:text-cyan-300">دستورات</a>
+      <a href="#channel" class="hover:text-cyan-300">کانال ما</a>
+      <a href="#feedback" class="hover:text-cyan-300">بازخورد</a>
+      <div id="g_id_onload"
+        data-client_id="YOUR_GOOGLE_CLIENT_ID.apps.googleusercontent.com"
+        data-login_uri="https://your-backend.com/auth/google"
+        data-auto_prompt="false">
+      </div>
+      <div class="g_id_signin" data-type="icon" data-size="medium"></div>
+    </nav>
+  </header>
+
+  <!-- Home Section -->
+  <section id="home" class="h-screen flex items-center justify-center text-center px-4">
+    <div class="animate__animated animate__fadeInDown">
+      <h2 class="text-4xl sm:text-5xl font-bold mb-4 neon">به الفو بات خوش آمدید</h2>
+      <p class="text-lg sm:text-xl mb-8">مدیریت کامل گروه روبیکا با امکانات امنیتی، سرگرمی و بیشتر</p>
+      <a href="#commands" class="bg-gradient-to-r from-cyan-500 to-blue-600 text-white px-6 py-3 rounded-lg shadow hover:scale-105 transition-transform">شروع کنید</a>
+    </div>
+  </section>
+
+  <!-- Commands Section -->
+  
+<section id="commands" class="py-20 bg-gray-800 px-4 text-right">
+  <div class="max-w-4xl mx-auto">
+    <h3 class="text-3xl font-bold mb-8 text-cyan-400">دستورات ربات</h3>
+    <div class="space-y-6 text-sm">
+      <h4 class="text-xl font-semibold text-cyan-300">🛠️ مدیریت گروه</h4>
+      <ul class="space-y-2">
+        <li>➤ بن (ریپلای، آیدی) ➡️ مسدودیت کاربر</li>
+        <li>➤ سنجاق (ریپلای) ➡️ پین پیام</li>
+        <li>➤ بستن گروه 🔒 / بازکردن گروه 🔓</li>
+        <li>➤ ادمین (ریپلای، آیدی) ➡️ افزودن ادمین</li>
+        <li>➤ لیست ادمین 📃 ➡️ نمایش ادمین‌ها</li>
+        <li>➤ برکنار (ریپلای، آیدی) ➡️ حذف ادمین</li>
+        <li>➤ کال (ایجاد کال)</li>
+        <li>➤ فیلتر (متن)</li>
+        <li>➤ حذف فیلتر (متن)</li>
+        <li>➤ مدیر (ریپلای)</li>
+        <li>➤ تنظیم اخطار (عدد)</li>
+        <li>➤ تعداد اخطارم</li>
+        <li>➤ تعداد اخطار (ریپلای)</li>
+        <li>➤ حذف اخطار (ریپلای)</li>
+        <li>➤ نسخه</li>
+      </ul>
+      <h4 class="text-xl font-semibold text-cyan-300 mt-8">🌟 خوشامدگویی و خداحافظی</h4>
+      <ul class="space-y-2">
+        <li>➤ خوشامدگویی روشن/خاموش 🎉</li>
+        <li>➤ خداحافظی روشن/خاموش 👋</li>
+      </ul>
+      <h4 class="text-xl font-semibold text-cyan-300 mt-8">🔐 قفل‌های امنیتی</h4>
+      <ul class="space-y-2">
+        <li>➤ ضد لینک | ضد فوروارد | ضد آیدی</li>
+        <li>➤ ضد عکس | ضد گیف | ضد ویس | ضد موزیک</li>
+        <li>➤ ضد فایل | ضد پست | ضد استوری | ضد نظرسنجی | ضد لایو | فیلتر</li>
+      </ul>
+      <h4 class="text-xl font-semibold text-cyan-300 mt-8">🎮 سرگرمی‌ها</h4>
+      <ul class="space-y-2">
+        <li>➤ تاس 🎲 (مثلاً: تاس 6)</li>
+        <li>➤ سکه 🪙 (مثلاً: شیر یا خط)</li>
+        <li>➤ چالش 🏆</li>
+        <li>➤ شغل آینده</li>
+        <li>➤ اگه حیوان بودم</li>
+        <li>➤ فیلم من</li>
+        <li>➤ وضعیتم</li>
+        <li>➤ شخصیتم</li>
+        <li>➤ ایموجی اسم (متن)</li>
+        <li>➤ بازی (سنگ، کاغذ، قیچی)</li>
+        <li>➤ ساعت</li>
+        <li>➤ بازی حدس (عدد)</li>
+        <li>➤ تاریخ</li>
+      </ul>
+      <h4 class="text-xl font-semibold text-cyan-300 mt-8">🤫 مدیریت سکوت</h4>
+      <ul class="space-y-2">
+        <li>➤ سکوت (ریپلای/آیدی) ➡️ محدودیت کاربر</li>
+        <li>➤ حذف سکوت (ریپلای/آیدی)</li>
+        <li>➤ لیست سکوت 📜</li>
+        <li>➤ بی اهمیت (ریپلای/آیدی) ➡️ محدودیت کاربر</li>
+        <li>➤ حذف بی اهمیت (ریپلای/آیدی)</li>
+        <li>➤ لیست بی اهمیت 📜</li>
+        <li>➤ معاف (ریپلای/آیدی) ➡️ محدودیت کاربر</li>
+        <li>➤ حذف معاف (ریپلای/آیدی)</li>
+        <li>➤ لیست معاف 📜</li>
+      </ul>
+      <h4 class="text-xl font-semibold text-cyan-300 mt-8">📊 آمار و گزارشات</h4>
+      <ul class="space-y-2">
+        <li>➤ آمارم 👤 | آمار گروه 📈</li>
+        <li>➤ آمار (ریپلای روی فرد) ℹ️</li>
+        <li>➤ تعداد اخطارم</li>
+        <li>➤ تعداد اخطار (ریپلای)</li>
+      </ul>
+      <h4 class="text-xl font-semibold text-cyan-300 mt-8">📋 لیست‌های مدیریتی</h4>
+      <ul class="space-y-2">
+        <li>➤ لیست قفل | لیست سرگرمی</li>
+        <li>➤ لیست سکوت | لیست ادمین | لیست بی اهمیت | لیست معاف | لیست فیلتر</li>
+        <li>➤ پاکسازی لیست (اسم لیست) 🧹</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+    <div class="max-w-4xl mx-auto">
+      <h3 class="text-3xl font-bold mb-8 text-cyan-400">دستورات ربات</h3>
+      <div class="space-y-4 text-sm">
+        <div class="card">بن (ریپلای، آیدی) ➡️ مسدود کردن کاربر</div>
+        <div class="card">سنجاق (ریپلای) ➡️ پین پیام</div>
+        <div class="card">بستن / بازکردن گروه</div>
+        <div class="card">ادمین ➡️ افزودن ادمین</div>
+        <div class="card">لیست ادمین‌ها، تنظیم اخطار، نسخه و بیشتر...</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Channel Section -->
+  <section id="channel" class="py-20 px-4 bg-gray-900 text-center">
+    <h3 class="text-3xl font-bold text-cyan-400 mb-4">کانال ما</h3>
+    <p class="mb-4">برای دریافت اخبار و آموزش‌ها:</p>
+    <a href="https://rubika.ir/alfo_bot" target="_blank" class="bg-cyan-500 text-white px-6 py-3 rounded shadow hover:bg-cyan-600">rubika.ir/alfo_bot</a>
+  </section>
+
+  <!-- Feedback Section -->
+  <section id="feedback" class="py-20 px-4 bg-gray-800">
+    <div class="max-w-xl mx-auto text-center">
+      <h3 class="text-3xl font-bold text-cyan-400 mb-4">ارسال بازخورد</h3>
+      <form action="https://formsubmit.co/alfo.bot.ir@gmail.com" method="POST" class="space-y-4">
+        <input type="text" name="name" placeholder="نام" required class="w-full px-4 py-2 rounded bg-gray-700 text-white">
+        <input type="email" name="email" placeholder="ایمیل" required class="w-full px-4 py-2 rounded bg-gray-700 text-white">
+        <textarea name="message" placeholder="پیام شما" rows="4" required class="w-full px-4 py-2 rounded bg-gray-700 text-white"></textarea>
+        <button type="submit" class="bg-gradient-to-r from-cyan-500 to-purple-600 text-white px-6 py-2 rounded shadow hover:scale-105 transition-transform">ارسال</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="bg-gray-950 text-center text-sm py-4">
+    © 2025 الفو بات. تمامی حقوق محفوظ است.
+  </footer>
+</body>
+</html>
